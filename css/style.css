@@ -68,19 +68,15 @@ main {
 	padding: 50px 0;
 }
 
-h1, h2 {
-	color: #333;
+.subtitulo {
 	font-weight: 700;
 	margin-bottom: 20px;
-}
-
-h1 {
-	font-size: 2.5em;
-}
-
-h2.subtitulo {
 	font-size: 2em;
 	color: rgb(160, 95, 139);
+}
+
+.headerPrincipalTitulo {
+	font-size: 2.5em;
 }
 
 /* Skills Section */
@@ -120,6 +116,17 @@ h2.subtitulo {
 }
 .iz{
 	float:right;
+	padding: 10px;
+}
+.texto{
+	
+	text-align: justify;
+	font-size: 18px;
+	
+}
+.negritas {
+	font-size: 30px;
+	font-weight: bold;
 }
 .contenidoPrincipal-cursos-link a {
 	color: inherit;
