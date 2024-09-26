@@ -96,15 +96,31 @@ main {
 }
 
 .contenidoPrincipal-cursos-link {
-	flex: 1 1 calc(33.333% - 15px);
+	flex: 1 1 calc(33.333% - 5px);
 	background-color: #F2F5F7;
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 	border-radius: 8px;
 	transition: transform 0.3s ease, background-color 0.3s ease;
 }
-
 .contenidoPrincipal-cursos-link:hover {
+	background-color: rgb(154, 0, 115);
+	color: white;
+	transform: scale(1.05);
+
+}
+.contenidoPortafolio-link {
+	flex: 1 1 1;
+	background-color: #F2F5F7;
+	padding: 40px;
+	text-align: center;
+	border-radius: 8px;
+	transition: transform 0.3s ease, background-color 0.3s ease;
+	font-size: 24.6px;
+}
+
+
+.contenidoPortafolio-link:hover {
 	background-color: rgb(154, 0, 115);
 	color: white;
 	transform: scale(1.05);
@@ -116,7 +132,7 @@ main {
 }
 .iz{
 	float:right;
-	padding: 10px;
+	padding: 5px;
 }
 .texto{
 	
