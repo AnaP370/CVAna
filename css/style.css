@@ -11,16 +11,13 @@ body {
 	max-width: 1200px;
 	width: 94%;
 	margin: 0 auto;
-	
+
 }
-/* Centrar el título de contacto */
+
 .contenidoContacto h2 {
     text-align: center;
-    margin-bottom: 20px; /* Si quieres dar espacio debajo */
+    margin-bottom: 20px; 
 }
-
-
-
 
 .headerPrincipal {
 	background-color: #FFF;
@@ -97,6 +94,7 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 15px;
+	
 }
 
 .contenidoPrincipal-cursos-link {
@@ -114,7 +112,7 @@ main {
 
 }
 .contenidoPortafolio-link {
-	flex: 1 1 1;
+	flex: 1 1 calc(10% - 5px);
 	background-color: #F2F5F7;
 	padding: 40px;
 	text-align: center;
@@ -125,8 +123,7 @@ main {
 
 
 .contenidoPortafolio-link:hover {
-	background-color: rgb(154, 0, 115);
-	color: white;
+	color:rgb(154, 0, 115);
 	transform: scale(1.05);
 }
 .foto{
