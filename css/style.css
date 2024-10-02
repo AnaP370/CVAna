@@ -236,3 +236,91 @@ button[type="submit"] {
 button[type="submit"]:hover {
 	background-color: #333;
 }
+@media (max-width: 768px) {
+    .headerPrincipal-nav {
+        display: none;
+        flex-direction: column;
+    }
+
+    .headerPrincipal-nav.active {
+        display: flex;
+    }
+
+    /* Agregar un botón de menú para dispositivos móviles */
+    .headerPrincipal {
+        position: relative;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: none;
+        border: none;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+
+    .contenidoPrincipal-cursos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contenidoPortafolio-link {
+        flex: 1 1 100%;
+    }
+
+    .foto {
+        max-width: 120px;
+    }
+
+    .headerPrincipalTitulo {
+        font-size: 1.8em;
+    }
+
+    .texto {
+        font-size: 16px;
+    }
+
+    .negritas {
+        font-size: 24px;
+    }
+
+    .mapa-contenedor {
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenidoPrincipal-cursos {
+        grid-template-columns: 1fr;
+    }
+
+    .formulario-contenedor {
+        width: 100%;
+        max-width: none;
+        padding: 15px;
+    }
+
+    .contenidoPrincipal-cursos-link,
+    .contenidoPortafolio-link {
+        padding: 15px;
+    }
+
+    .headerPrincipalNavLink {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+
+    .texto {
+        font-size: 14px;
+    }
+
+    .negritas {
+        font-size: 20px;
+    }
+
+    .mapa-contenedor {
+        height: 200px;
+    }
+}
